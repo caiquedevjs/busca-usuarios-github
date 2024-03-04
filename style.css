@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+body{
+    background-color: #1e1f34;
+}
+
+main{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+    
+}
+.content{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 100px;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    
+}
+#app span{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 3px #353753;;
+    background-color: transparent
+}
+#nome-ID{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #353753;
+}
+#nome-ID::placeholder{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+    
+}
+#search-btn-ID{
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+}
+#search-btn-ID:hover{
+    cursor: pointer;
+}
+.busca-content{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 4%;
+}
+
+#app img{
+    border-radius: 10px;
+}
